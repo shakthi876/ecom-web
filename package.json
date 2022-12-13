@@ -4,11 +4,11 @@
   "description": "backend_server",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "node app.js",
+    "server":"nodemon server.js",
     "client":"npm start --prefix client",
     "clientinstall":"npm install --prefix client",
-    "dev":"concurrently \"npm run start\" \"npm run client\" ",
+    "dev":"concurrently \"npm run server\" \"npm run client\" ",
     "render-postbuild":"npm install --prefix client && npm run build --prefix client"
   },
   "author": "shakthi_naarayananR",
