@@ -130,7 +130,7 @@ const [paymentSuccess,setPaymentSuccess] = useState(false)
 
                  }     
        />
-<Route path='*' element={<Navigate to="/"/>}/>
+{/* <Route path='*' element={<Navigate to="/"/>}/> */}
      
     </Routes>
     
